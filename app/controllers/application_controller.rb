@@ -1,4 +1,6 @@
 class ApplicationController < Sinatra::Base
+  attr_accessor :dog
+
 
   configure do
   	set :views, "app/views"
